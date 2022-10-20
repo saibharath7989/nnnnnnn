@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 
 
 
-ENTRYPOINT FLASK_APP flask run --host=0.0.0.0 --port=80
+ENTRYPOINT FLASK_APP=/app/server.py flask run --host=0.0.0.0 --port=80
